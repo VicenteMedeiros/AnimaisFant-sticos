@@ -1,0 +1,47 @@
+body{
+    background-color: #e8e0e0;
+    box-sizing: border-box;
+   
+}
+
+body h1 h2 p ul li dt dd{
+    margin: 0px;
+    padding: 0px;
+}
+h1{ 
+    font-size: 5rem;
+    font-family: 'Playfair Display SC', georgia;
+    font-weight: 400;
+    
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+    
+.top-list{
+   list-style-type: none;
+   display: flex;
+}
+
+.top-list li a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'IBM Plex Mono', monospace;
+    
+    
+}
+.grid-cont{
+    list-style-type: none;
+    background-color: rgb(191, 233, 191);
+    padding: 10px;
+    margin-top: 30px;
+    
+}
+
+.pictures{
+    list-style-type: none;
+}
