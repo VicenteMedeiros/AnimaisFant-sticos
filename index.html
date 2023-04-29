@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilo.css">
-
+    <script>document.documentElement.className += ' js';</script>
 </head>
 <body>
     
@@ -32,7 +32,7 @@
             <div class="main-div">     
                 <div class="st-div">   
              <section>
-             <ul class="pictures">
+             <ul class="pictures js-tabmenu">
              <li><img src="imagem1.jpg" alt="Raposa"></li>
              <li><img src='imagem2.jpg' alt='Esquilo'></li>
              <li><img src='imagem3.jpg' alt='Urso'></li>
@@ -42,7 +42,7 @@
              </ul>
           </section>
                 </div>
-                <div class="sec-div">
+                <div class="sec-div js-tabcontent">
           <section>
              <h2>Raposa</h2>
              <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
@@ -59,18 +59,22 @@
              <p>No Brasil, são também conhecidos como serelepe, caxinguelê, caxinxe, quatimirim, quatipuru, agutipuru ou acutipuru.</p> 
              <p>Na Galiza e em algumas zonas de Portugal, também são conhecido por esquio.</p> 
           </section>
+          <section>
              <h2>Urso</h2>
              <p>Os Ursos constituem uma família de mamíferos carnívoros de grande porte, contendo os ursos e os pandas.</p> 
              <p>Eles são classificados como caníformes ou carnivoros caninos.</p> 
              <p>Os ursos são encontrados nos continentes da América do Norte, América do Sul, Europa e Ásia. </p>
-          <section>
+          </section>
+             <section>
              <h2>Lobo</h2>
              <p>O lobo é uma espécie de mamífero canídeo do gênero Canis. É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás.</p>
              <p>É o maior membro remanescente selvagem da família canidae.</p>       
           </section>
+          <section>
              <h2>Macaco</h2>
              <p>Macaco é um termo de origem africana utilizado como designação comum a todas as espécies de símios ou primatas antropoides.</p>
              <p>É aplicada restritivamente no Brasil aos cebídeos em geral. No sentido estrito, "macaco" refere-se às espécies de primatas pertencentes ao género Macaca.</p>
+          </section>
           <section>
              <h2>Leão</h2>
              <p>O leão [feminino: leoa] é uma espécie de mamífero carnívoro do gênero Panthera e da família Felidae.</p>
@@ -80,7 +84,7 @@
             </div>
           <section>
             <h1>FAQ</h1>
-            <dl>
+            <dl class="js-accordion">
                 <dt>Qual a idade dos animais?</dt>
                 <dd>Uma forma muito famosa de como saber a idade de um cachorro é a proporção 1 para 7.
                 Ou seja: cada ano canino é considerado sete anos humanos. Sendo assim, um cãozinho de dois anos de vida teria 14 anos se fosse um humano.</dd>
@@ -120,6 +124,8 @@
         <p>Todos os direitos reservados.</p>
     </footer>
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
 
